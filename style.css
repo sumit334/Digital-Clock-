@@ -7,21 +7,29 @@ html, body {
   background: black;
   height: 100%;
   width: 100%;
-  background-size:7%;
-  background: #c2c2c2 url(https://brightland.org/wp-content/uploads/2018/10/shapes-bg-color.png)  ;
+  background-size:6%;
+  background: #c2c2c2 url(bg.jpg)  ;
   text-shadow: 0 0 5px white;
 	
 }
 #clock{
-	color:green;
+	color:blueviolet;
 	position: absolute;
 	background-repeat: no-repeat;
-	letter-spacing: 7px;
+	letter-spacing: 8px;
 	top:50%;
 	left:50%;
 	font-family: Orbitron;
 	transform: translateX(-50%)
-		translateY(-50%);
+	translateY(-45%);
 	font-size: 100px;
 	background: ;
+}
+.calendar
+{
+	position: absolute;
+	top: 10px;
+	left:20px;
+	margin: 2px 2px;
+	border:5px solid black;
 }
