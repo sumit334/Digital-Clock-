@@ -8,12 +8,12 @@ html, body {
   height: 100%;
   width: 100%;
   background-size:6%;
-  background: #c2c2c2 url(https://brightland.org/wp-content/uploads/2018/10/shapes-bg-color.png)  ;
+  background: #c2c2c2 url(bg.jpg)  ;
   text-shadow: 0 0 5px white;
 	
 }
 #clock{
-	color:orangered;
+	color:blueviolet;
 	position: absolute;
 	background-repeat: no-repeat;
 	letter-spacing: 8px;
