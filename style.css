@@ -33,3 +33,17 @@ html, body {
 	margin: 2px 2px;
 	border:5px solid black;
 }
+.about
+{
+	
+	padding:2px 2px;
+	position: absolute;
+	right: 31%;
+	top: 88%;
+	left: 27%;
+	bottom:30%;
+}
+p{
+	font-size: 120%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
