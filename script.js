@@ -1,5 +1,5 @@
 //digital clock
-const findTime = () => {
+const findClock = () => {
 	let time = new Date();
 	let h = time.getHours();
 	let m = time.getMinutes();
@@ -17,7 +17,21 @@ const findTime = () => {
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
 	let currTime=h + ":" + m + ":" + s+" "+am_pm;
-	document.getElementById('clock').innerHTML=currTime;
+	
+	const today=new Date();
+    const CurrentDay=today.getDay();
+    const options={
+        weekday:"short",
+        day:"numeric",
+        month:"short",
+		year:"numeric"
+    
+    };
+    
+    const day=today.toLocaleDateString("en-US",options)
+	
+	document.getElementById('clock').innerHTML=currTime+" "+day;
 }
 
-setInterval(findTime, 1000);
+
+setInterval(findClock, 1000);
